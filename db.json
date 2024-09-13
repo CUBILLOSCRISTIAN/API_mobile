@@ -56,34 +56,5 @@
         "unit": "kWh",
         "cost": 2.90
       }
-    ],
-  "alerts": [
-    {
-      "id": "alert_001",
-      "type": "highConsumption",
-      "severity": "warning",
-      "message": "Su consumo de energía ha excedido el promedio diario por 2 días consecutivos.",
-      "timestamp": "2024-08-27T09:00:00Z",
-      "suggestions": [
-        "Revise el uso de electrodomésticos de alto consumo durante las horas pico.",
-        "Considere desconectar dispositivos que no se estén usando."
-      ]
-    }
-  ],
-  "tips": [
-    {
-      "id": "tip_001",
-      "category": "savings",
-      "message": "Apague las luces cuando no estén en uso.",
-      "effectiveFrom": "2024-09-01",
-      "effectiveTo": "2024-12-31"
-    },
-    {
-      "id": "tip_002",
-      "category": "efficiency",
-      "message": "Use bombillas LED para ahorrar energía.",
-      "effectiveFrom": "2024-09-01",
-      "effectiveTo": "2024-12-31"
-    }
-  ]
+    ]
 }
