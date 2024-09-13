@@ -1,1 +1,91 @@
-{}
+{
+  "metadata": {
+    "version": "1.0",
+    "timestamp": "2024-09-01T15:30:00Z",
+    "responseCode": 200,
+    "responseMessage": "Success"
+  },
+  "user": {
+    "id": "12345",
+    "name": "Juana Pérez",
+    "email": "juanaperez@example.com",
+    "role": "household",
+    "preferences": {
+      "currency": "USD",
+      "language": "es",
+      "notificationFrequency": "daily"
+    }
+  },
+  "energyConsumption": {
+    "overview": {
+      "totalConsumption": {
+        "value": 450,
+        "unit": "kWh",
+        "period": "monthly",
+        "cost": 65.50,
+        "currency": "USD"
+      },
+      "averageDailyConsumption": {
+        "value": 18,
+        "unit": "kWh"
+      },
+      "peakConsumption": {
+        "date": "2024-08-26",
+        "value": 20,
+        "unit": "kWh"
+      }
+    },
+    "detailedConsumption": [
+      {
+        "date": "2024-08-25",
+        "hourlyData": [
+          { "hour": "00:00", "value": 0.5 },
+          { "hour": "01:00", "value": 0.6 },
+          { "hour": "23:00", "value": 0.8 }
+        ],
+        "total": 15,
+        "unit": "kWh",
+        "cost": 2.18
+      },
+      {
+        "date": "2024-08-26",
+        "hourlyData": [
+          { "hour": "00:00", "value": 0.7 },
+          { "hour": "23:00", "value": 1.2 }
+        ],
+        "total": 20,
+        "unit": "kWh",
+        "cost": 2.90
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "id": "alert_001",
+      "type": "highConsumption",
+      "severity": "warning",
+      "message": "Su consumo de energía ha excedido el promedio diario por 2 días consecutivos.",
+      "timestamp": "2024-08-27T09:00:00Z",
+      "suggestions": [
+        "Revise el uso de electrodomésticos de alto consumo durante las horas pico.",
+        "Considere desconectar dispositivos que no se estén usando."
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "id": "tip_001",
+      "category": "savings",
+      "message": "Apague las luces cuando no estén en uso.",
+      "effectiveFrom": "2024-09-01",
+      "effectiveTo": "2024-12-31"
+    },
+    {
+      "id": "tip_002",
+      "category": "efficiency",
+      "message": "Use bombillas LED para ahorrar energía.",
+      "effectiveFrom": "2024-09-01",
+      "effectiveTo": "2024-12-31"
+    }
+  ]
+}
