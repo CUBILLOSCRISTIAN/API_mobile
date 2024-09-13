@@ -16,8 +16,8 @@
       "notificationFrequency": "daily"
     }
   },
-  "energyConsumption": {
-    "overview": {
+  "energyConsumptionOverview": {
+    
       "totalConsumption": {
         "value": 450,
         "unit": "kWh",
@@ -33,9 +33,9 @@
         "date": "2024-08-26",
         "value": 20,
         "unit": "kWh"
-      }
+      
     },
-    "detailedConsumption": [
+    "energyConsumptionDetailed": [
       {
         "date": "2024-08-25",
         "hourlyData": [
